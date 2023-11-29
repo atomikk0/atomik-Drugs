@@ -45,7 +45,7 @@ exports['qb-target']:AddBoxZone("Opiumtopla", OpiumToplama.targetZone, 5.4, 5.4,
 
 exports['qb-target']:AddBoxZone("opiumpacking", OpiumPaket.targetZone, 1.4, 1.4, {
 	name="opiumpacking",
-	heading = OpiumPaket,
+	heading = OpiumPaket.heading,
 	debugPoly = false,
 	minZ = OpiumPaket.minZ,
 	maxZ = OpiumPaket.maxZ,
