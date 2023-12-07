@@ -220,22 +220,22 @@ RegisterNetEvent('atomik-Drugs:OpenWeedProcess', function()
         isMenuHeader = true,
       },
       {
-		header = OpiumLocales['processmenuheader1'],
-		txt = OpiumLocales['processmenutext1'],
+		header = WeedLocales['processmenuheader1'],
+		txt = WeedLocales['processmenutext1'],
           params = {
               event = 'atomik-Drugs:WeedBadProcess',
             }
       },
       {
-		header = OpiumLocales['processmenuheader2'],
-		txt = OpiumLocales['processmenutext2'],
+		header = WeedLocales['processmenuheader2'],
+		txt = WeedLocales['processmenutext2'],
 		params = {
 			event = 'atomik-Drugs:WeedMedProcess',
 		  }
 	},
 	{
-		header = OpiumLocales['processmenuheader3'],
-		txt = OpiumLocales['processmenutext3'],
+		header = WeedLocales['processmenuheader3'],
+		txt = WeedLocales['processmenutext3'],
 		params = {
 			event = 'atomik-Drugs:WeedMaxProcess',
 		  }
@@ -247,26 +247,26 @@ end)
 RegisterNetEvent('atomik-Drugs:OpenWeedPacking', function()
     local Weed = {
       {
-        header = OpiumLocales['packetmenulabel'],
+        header = WeedLocales['packetmenulabel'],
         isMenuHeader = true,
       },
       {
-		header = OpiumLocales['packetmenuheader1'],
-		txt = OpiumLocales['packetmenutext1'],
+		header = WeedLocales['packetmenuheader1'],
+		txt = WeedLocales['packetmenutext1'],
           params = {
               event = 'atomik-Drugs:WeedBadPacking',
             }
       },
       {
-		header = OpiumLocales['packetmenuheader2'],
-		txt = OpiumLocales['packetmenutext2'],
+		header = WeedLocales['packetmenuheader2'],
+		txt = WeedLocales['packetmenutext2'],
 		params = {
 			event = 'atomik-Drugs:WeedMedPacking',
 		  }
 	},
 	{
-		header = OpiumLocales['packetmenuheader3'],
-		txt = OpiumLocales['packetmenutext3'],
+		header = WeedLocales['packetmenuheader3'],
+		txt = WeedLocales['packetmenutext3'],
 		params = {
 			event = 'atomik-Drugs:WeedMaxPacking',
 		  }
